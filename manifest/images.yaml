@@ -47,7 +47,7 @@ projects:
     repo: php-docker
     kind: image
     description: Traditional PHP-FPM & CLI images
-    hub_short: "PHP-FPM & CLI images: 52 extensions, Composer, WP-CLI, Node.js. PHP 8.2-8.5"
+    hub_short: "PHP-FPM & CLI images: 51 extensions, Composer, WP-CLI, Node.js. PHP 8.2-8.5"
   nginx:
     repo: nginx-docker
     kind: image
@@ -56,8 +56,8 @@ projects:
   apache:
     repo: apache-docker
     kind: image
-    description: Apache as a static server or php-fpm application server, no PHP inside
-    hub_short: "Apache as a static server or php-fpm application server — no PHP inside"
+    description: Apache httpd as a static server or php-fpm application server, no PHP inside
+    hub_short: "Apache httpd as a static server or php-fpm application server — no PHP inside"
   adminer:
     repo: adminer-docker
     kind: image
