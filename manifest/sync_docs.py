@@ -26,7 +26,7 @@ from pathlib import Path
 
 import yaml
 
-BEGIN = "<!-- BEGIN GENERATED: related (from images.yaml in the org .github repository; do not edit by hand) -->"
+BEGIN = "<!-- BEGIN GENERATED: related (from manifest/images.yaml in the morsalin1342/.github repository; do not edit by hand) -->"
 END = "<!-- END GENERATED: related -->"
 BLOCK = re.compile(r"<!-- BEGIN GENERATED: related[^>]*-->.*?<!-- END GENERATED: related -->", re.S)
 
