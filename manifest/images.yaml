@@ -1,5 +1,5 @@
-# The shared facts of the six sibling repositories: apache-docker, caddy-docker,
-# frankenphp-docker, nginx-docker, php-docker and the Souin cache plugin.
+# The shared facts of the sibling repositories: adminer-docker, apache-docker,
+# caddy-docker, frankenphp-docker, nginx-docker, php-docker and the Souin cache plugin.
 #
 # One home for each fact. The repositories do not retype these; they run
 # manifest/sync_docs.py, which fills the generated blocks in their READMEs from
@@ -37,17 +37,17 @@ projects:
     repo: caddy-docker
     kind: image
     description: Standalone Caddy with WAF, rate limiting & caching
-    hub_short: "Production-ready Caddy with Coraza WAF, rate limiting, Brotli, Souin cache and 6 DNS providers"
+    hub_short: "Caddy with Coraza WAF, rate limiting, Brotli, Souin cache and 6 DNS providers"
   frankenphp:
     repo: frankenphp-docker
     kind: image
     description: Caddy + PHP app server in one container
-    hub_short: "Production-ready FrankenPHP: custom Caddy build, 51 PHP extensions, Composer, WP-CLI, Node.js"
+    hub_short: "FrankenPHP: custom Caddy build, 51 PHP extensions, Composer, WP-CLI, Node.js"
   php:
     repo: php-docker
     kind: image
     description: Traditional PHP-FPM & CLI images
-    hub_short: "Production-ready PHP-FPM & CLI images: 52 extensions, Composer, WP-CLI, Node.js. PHP 8.2-8.5"
+    hub_short: "PHP-FPM & CLI images: 52 extensions, Composer, WP-CLI, Node.js. PHP 8.2-8.5"
   nginx:
     repo: nginx-docker
     kind: image
@@ -58,6 +58,11 @@ projects:
     kind: image
     description: Apache as a static server or php-fpm application server, no PHP inside
     hub_short: "Apache as a static server or php-fpm application server — no PHP inside"
+  adminer:
+    repo: adminer-docker
+    kind: image
+    description: "Adminer database tool: the official image plus Alpine security updates"
+    hub_short: "Adminer database tool: the official image with Alpine security updates"
   # One WordPress plugin for every cache (planned: Caddy with Souin, nginx FastCGI cache, Vinyl Cache).
   # The old Souin-only plugin, caddy-souin-cache-manager, stays as it was, is unrelated, and is not listed here.
   cache-manager:

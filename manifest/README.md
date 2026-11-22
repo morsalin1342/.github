@@ -1,8 +1,9 @@
 # Shared manifest for the sibling repositories
 
-`images.yaml` holds the facts that `apache-docker`, `caddy-docker`, `frankenphp-docker`,
-`nginx-docker`, `php-docker` and the Souin cache plugin all state about each other: project names,
-GitHub owner, Docker Hub namespaces, one-line descriptions and Docker Hub short descriptions.
+`images.yaml` holds the facts that `adminer-docker`, `apache-docker`, `caddy-docker`,
+`frankenphp-docker`, `nginx-docker`, `php-docker` and the Souin cache plugin all state about each
+other: project names, GitHub owner, Docker Hub namespaces, one-line descriptions and Docker Hub
+short descriptions.
 Each fact lives here once. The repositories do not retype it.
 
 `sync_docs.py` is how a repository follows the manifest.
